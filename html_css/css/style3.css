@@ -1,0 +1,30 @@
+.wrap {
+    min-width: 400px;
+    width: 80%;
+    margin: auto;
+    background:azure;
+    overflow: hidden; /* triggers browser into containing things*/
+}
+
+.content, aside {
+    height: 400px;
+}
+
+.content {
+    background: coral;
+    /* float to the left side of screen, takes up all necessary space if width not specified*/
+    float: left;
+    width: 80%;
+}
+
+/* when you float, the flow of the document is interupted*/
+aside {
+    background: cadetblue;
+    float: left;
+    width: 20%
+}
+
+aside ul {
+    list-style: none;
+    padding: 10px;
+}

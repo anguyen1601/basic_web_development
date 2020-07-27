@@ -1,0 +1,13 @@
+h1 {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Grenze Gotisch', cursive;
+    letter-spacing: -1px;
+    color: lightslategray;
+    text-transform: lowercase;
+    text-shadow: 5px 10px 10px gainsboro; /* x offset, y offset, blur, color */
+    /* 5px -1 0 white,
+    6px -2px 0 red*/
+    font-variant: small-caps;
+}

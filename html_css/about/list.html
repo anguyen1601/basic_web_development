@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fun Facts</title>
+    <meta charset="utf-8" />
+    <style>
+        /*used only for specific elements not to group*/
+        #emphasis{
+            color: indianred;
+        }
+        /*a class, for group styling*/
+        .emphasis{
+            color: lightseagreen;
+        }
+        /*nth child of parent, good for reproduction*/
+        #sect li:nth-child(3) {
+            color: lightsalmon;
+        }
+
+    </style>
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <h1>Fun Facts!</h1>
+    
+</head>
+
+<body>
+    <!-- sect allows for targetting a specific group rather than all OR ul:first-of-type-->
+        <ul id= sect>
+            <!--class-->
+            <li id="emphasis"> I have 3 tattoos!</li>
+            <!--identifier-->
+            <li class="emphasis"> My favorite color is beige.</li>
+            <!-- targeting group-->
+            <li> Winter is my prefered season.</li>
+        </ul>
+   
+</body>
+
+</html>

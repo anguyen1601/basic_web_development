@@ -1,0 +1,27 @@
+/*anchor tag labeled with a*/
+a { 
+    color: darkcyan;
+    text-decoration: none;
+}
+
+h1 { /* find all h1 and apply this*/
+    font-family: helvetica, arial, sans-serif; /*preferred font, backup font if user does not have */
+   /* color: darkslategrey;*/
+   color: black;
+
+}
+
+h3 {
+    font-family: helvetica, arial, sans-serif; 
+   color: black;
+}
+
+
+div{
+    width: 500px;
+    margin: auto;
+    background: darkseagreen;
+    text-align: center
+}
+
+
